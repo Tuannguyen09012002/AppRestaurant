@@ -1,0 +1,46 @@
+name: APP401
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_launcher_icons: ^0.10.0
+  firebase_core: ^2.28.0
+  mailer: ^6.0.0
+  http: ^1.2.1
+  firebase_auth: ^4.7.3
+  firebase_database: ^10.2.6
+  firebase_storage: ^11.7.4
+  image_picker: ^0.8.4+4
+  path_provider: ^2.0.2
+  intl: ^0.18.1
+  flutter_date_pickers: ^0.2.0
+  fl_chart: ^0.55.2
+  shared_preferences: ^2.0.0
+  firebase_app_check: ^0.2.2+7 # Sử dụng phiên bản tương thích với firebase_core 2.x
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/lg.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ban.png
+    - assets/app.jpg
+    - assets/background.jpg
+    - assets/lock.jpg
+    - assets/lg.jpg
